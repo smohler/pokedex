@@ -3,7 +3,7 @@ This script is prints an `attribute` for a given PokeMon. The PokeDex is created
 ```
 $ python pokedex.py <database file> <Pokemon Name>
 ```
-The `database file` must be a `.csv` for the program to work. To keep things as they were in the code exam as well I have included a copy file named `solution.py` that runs with the same command line interface syntax. An example use would be
+The `database file` must be a `.csv` for the program to work. An example use would be
 ```
 $ python pokedex.py database.py Banub
 ID:
@@ -25,7 +25,7 @@ Our main methods is `PokeDex.attribute(<Pokemon Name>)` this prints out all the 
 >>> from pokedex import PokeDex
 >>> mypokemon = PokeDex('database.csv')
 >>> print(mypokemon)
->>>PokeDex(database.csv)
+>>> PokeDex(database.csv)
 ****************
 Name:
     Banub
