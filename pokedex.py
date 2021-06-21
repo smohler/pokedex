@@ -37,7 +37,7 @@ class PokeDex:
 
         # Get the IDS
         mine = self.registry.keys()
-        theirs = self.registry.keys()
+        theirs = other.registry.keys()
 
         # Find the new PokeMon and Repeats
         repeats = set(mine).intersection(set(theirs))
